@@ -1,0 +1,138 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "name": "Alfa Infotech",
+      "password": "alif@Idb200",
+      "email": "ealif@gmail.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true,
+      "address": {
+        "area": "bhola"
+      }
+    },
+    {
+      "id": "testuser",
+      "name": "Test User",
+      "password": "Test@1234",
+      "email": "test@in.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": true,
+      "address": {
+        "area": "dhaka"
+      }
+    },
+    {
+      "id": "ea1",
+      "name": "EA Infotech",
+      "password": "Test@1233",
+      "email": "te@in.com",
+      "gender": "male",
+      "role": "tech",
+      "isactive": true,
+      "address": {
+        "area": "sylhet"
+      }
+    },
+    {
+      "id": "ntuser",
+      "name": "nusrat",
+      "password": "Test@1234",
+      "email": "te@in.com",
+      "gender": "male",
+      "role": "tech",
+      "isactive": true,
+      "address": {
+        "area": "barishal"
+      }
+    },
+    {
+      "id": "easinalif",
+      "name": "Md Easin Alif",
+      "password": "Isdb1273@",
+      "email": "tweet.easinalif@gmail.com",
+      "gender": "male",
+      "role": "",
+      "isactive": false
+    }
+  ],
+  "role": [
+    {
+      "code": "user",
+      "name": "User"
+    },
+    {
+      "code": "tech",
+      "name": "Technician"
+    }
+  ],
+  "menu": [
+    {
+      "code": "user",
+      "name": "User"
+    },
+    {
+      "code": "customer",
+      "name": "Customer"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "user",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true
+    },
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true
+    },
+    {
+      "role": "user",
+      "menu": "user",
+      "haveedit": false,
+      "haveadd": false,
+      "havedelete": false
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": false
+    }
+  ],
+  "customer": [
+    {
+      "id": 1,
+      "name": "Alif",
+      "Creditlimit": 1000
+    },
+    {
+      "id": 2,
+      "name": "Asif",
+      "Creditlimit": 1000
+    },
+    {
+      "id": 3,
+      "name": "Adil",
+      "Creditlimit": 1000
+    },
+    {
+      "id": 4,
+      "name": "Abir",
+      "Creditlimit": 1000
+    },
+    {
+      "id": 5,
+      "name": "Anik",
+      "Creditlimit": 1000
+    }
+  ]
+}
