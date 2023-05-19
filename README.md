@@ -17,9 +17,11 @@
 
 
 Install Angular npm package :   npm install ng-packagr --save-dev --force
+
 Run Json Server :   json-server --watch db.json
 
 [ Admin id/username  - admin
+
 Password -  alif@Idb200 ]
 
 Angular 15 Authentication is a web application that provides user registration, login functionality, and role-based access control using Angular version 15 and a JSON server REST API. This application aims to demonstrate a secure and robust authentication system with role-based permissions for different user types.
