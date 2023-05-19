@@ -1,6 +1,7 @@
 # Authentication
 
-==================================================================================================================================================================
+  ============================================================================================================================
+                
                 Angular 15 Authentication (Registration + Login + Role based access) using JSON server REST API
                 
                 
@@ -39,7 +40,8 @@ The main features of Angular 15 Authentication include:
 
 Overall, Angular 15 Authentication provides a complete solution for user authentication and role-based access control in an Angular 15 application. It showcases best practices in building secure web applications and demonstrates the integration of Angular with a JSON server REST API to handle user registration, login, and role management.
 
-==================================================================================================================================================================
+  ============================================================================================================================
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
 
 ## Development server
